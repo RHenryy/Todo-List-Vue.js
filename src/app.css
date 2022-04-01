@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color:green;
+    border: 3px solid green;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color:red;
+    border: 3px solid red;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 2rem;
+    
+}
+
+.titre {
+    border: 3px solid blue;
+    padding: 0.5rem;
+    background-color: lightblue;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.box {
+    background-color: lightgrey;
+    padding:3rem;
+    position: relative;
+    margin-top: 3rem;
+    border:3px solid black;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+input[type=text] {
+    padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+ul{
+    list-style:none;
+    text-align: left;
+    padding-left: 0;
+}
+.done {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+ul li {
+    padding: 0.7rem;
+    background-color: green;
+    color: white;
+    margin: 1rem;
+    font-size: 1.6rem;
+    display:flex;
+    
+    
+}
+.center {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+ul li .delete:hover {
+    
+    opacity:1;
+    transform: scale(1.4);
+    transition: 0.8s;
+}
+input[type=checkbox]
+{
+    margin-right: 3rem;
+}
+.edit {
+    position: absolute;
+    background-color: red;
+    padding: 0.5rem;
+    left: 70%;
+    opacity: 0.5;
+}
+ul li .edit:hover {
+    
+    opacity:1;
+    transform: scale(1.4);
+    transition: 0.8s;
+}
+.delete {
+    position: absolute;
+    background-color: red;
+    padding: 0.5rem;
+    left: 80%;
+    opacity: 0.5;
+    
+}
+input[type="checkbox"] {
+  align-self:center;
+}
+.flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear {
+    padding: 0.7rem;
+    
+    background-color: red;
+    margin-left: 1rem;
+    align-self: flex-end;
+}

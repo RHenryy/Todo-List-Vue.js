@@ -1,0 +1,11 @@
+.deleteTarget {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-left: 1rem;
+   
+    
+}

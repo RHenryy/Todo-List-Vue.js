@@ -1,0 +1,11 @@
+.delete {
+    position: absolute;
+    background-color: red;
+    padding: 1rem;
+    left: 80%;
+    opacity: 0.5;
+    color: white;
+    width:4%;
+   
+    
+}
