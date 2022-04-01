@@ -18,8 +18,8 @@
     <div class="flex"><button-add :tasks="tasks" :message="message" :editedTask="editedTask" @update="reset()" ref="addList"/>
     <delete-target :tasks="tasks" :message="message" :editedTask="editedTask" @deleteTarget="notCompleted()" />
     <button class="clear" type="button" @click.prevent="deleteAll()">Clear List</button>
-    <button class="clear" type="button" @click.prevent="completed()">Show completed</button>
-    <button class="clear" type="button" @click.prevent="showAll()">Show all</button>
+    <!-- <button class="clear" type="button" @click.prevent="completed()">Show completed</button>
+    <button class="clear" type="button" @click.prevent="showAll()">Show all</button> -->
     </div>
     
     
